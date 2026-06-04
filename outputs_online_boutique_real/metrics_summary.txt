@@ -1,0 +1,20 @@
+USAD reproduction summary
+input: data\online_boutique_real_metrics.csv
+rows: 120
+metrics: 15
+window_size: 6
+train_windows: 37
+epochs: 120
+final_train_loss: 0.130828
+threshold: 0.209006
+precision: 0.6071
+recall: 0.9714
+f1: 0.7473
+tp/fp/fn/tn: 34/22/1/58
+
+top reconstruction-error metrics:
+- frontend_status_code: 71.397721
+- frontend_latency_ms: 4.238709
+- frontend_response_bytes: 1.488691
+- frontend_success: 0.360147
+- productcatalogservice_ready_ratio: 0.348493

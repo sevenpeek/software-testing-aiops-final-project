@@ -1,0 +1,6 @@
+﻿NAME                                        READY   STATUS    RESTARTS   AGE   IP            NODE       NOMINATED NODE   READINESS GATES
+chaos-controller-manager-585fdb8769-f5vmj   1/1     Running   0          10m   10.244.0.47   minikube   <none>           <none>
+chaos-controller-manager-585fdb8769-f8c75   1/1     Running   0          10m   10.244.0.45   minikube   <none>           <none>
+chaos-controller-manager-585fdb8769-gwjmg   1/1     Running   0          10m   10.244.0.46   minikube   <none>           <none>
+chaos-daemon-69s7l                          1/1     Running   0          10m   10.244.0.48   minikube   <none>           <none>
+chaos-dns-server-7666bdc646-kkgz6           1/1     Running   0          10m   10.244.0.44   minikube   <none>           <none>

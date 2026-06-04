@@ -1,0 +1,20 @@
+USAD reproduction summary
+input: data/sample_sockshop_metrics.csv
+rows: 720
+metrics: 9
+window_size: 12
+train_windows: 240
+epochs: 20
+final_train_loss: 0.843491
+threshold: 1.675597
+precision: 0.7294
+recall: 1.0000
+f1: 0.8435
+tp/fp/fn/tn: 159/59/0/491
+
+top reconstruction-error metrics:
+- frontend_error_rate: 2.411457
+- frontend_p95_latency_ms: 1.883264
+- catalogue_memory_usage: 1.752672
+- catalogue_cpu_usage: 1.154241
+- frontend_request_rate: 1.082144

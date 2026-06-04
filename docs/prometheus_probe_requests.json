@@ -1,0 +1,21 @@
+﻿{
+    "status":  "success",
+    "data":  {
+                 "resultType":  "vector",
+                 "result":  [
+                                {
+                                    "metric":  {
+                                                   "__name__":  "online_boutique_probe_requests_total",
+                                                   "instance":  "10.244.0.42:9105",
+                                                   "job":  "kubernetes-service-endpoints",
+                                                   "namespace":  "monitoring",
+                                                   "service":  "online-boutique-probe-exporter"
+                                               },
+                                    "value":  [
+                                                  1780489134.626,
+                                                  "263"
+                                              ]
+                                }
+                            ]
+             }
+}

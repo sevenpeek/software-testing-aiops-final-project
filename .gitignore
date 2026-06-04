@@ -1,0 +1,7 @@
+.tools/
+__pycache__/
+*.pyc
+.pytest_cache/
+jmeter.log
+report/rendered_latest/
+report/rendered_pdf/

@@ -1,0 +1,19 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: NetworkChaos
+metadata:
+  name: sockshop-frontend-network-delay
+  namespace: sock-shop
+spec:
+  action: delay
+  mode: all
+  selector:
+    namespaces:
+      - sock-shop
+    labelSelectors:
+      name: front-end
+  delay:
+    latency: "250ms"
+    correlation: "50"
+    jitter: "50ms"
+  duration: "5m"
+

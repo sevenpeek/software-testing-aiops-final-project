@@ -1,0 +1,9 @@
+JMeter Online Boutique Load Test Summary
+total_samples: 240
+success_samples: 240
+error_samples: 0
+error_rate: 0.00%
+avg_latency_ms: 15.83
+min_latency_ms: 5
+max_latency_ms: 81
+labels: GET Cart Page, GET Home Page, GET Product Page
