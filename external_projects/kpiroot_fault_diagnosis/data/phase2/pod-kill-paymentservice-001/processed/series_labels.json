@@ -1,0 +1,273 @@
+{
+  "alarm_frontend_cpu__frontend": {
+    "pod": "frontend-7b76648f6b-227tg"
+  },
+  "alarm_frontend_probe_duration": {
+    "__name__": "probe_duration_seconds",
+    "instance": "http://frontend.online-boutique.svc.cluster.local/",
+    "job": "online-boutique-frontend-blackbox"
+  },
+  "alarm_frontend_probe_success": {
+    "__name__": "probe_success",
+    "instance": "http://frontend.online-boutique.svc.cluster.local/",
+    "job": "online-boutique-frontend-blackbox"
+  },
+  "cpu__adservice": {
+    "pod": "adservice-584964d9f6-4ktgx"
+  },
+  "cpu__cartservice": {
+    "pod": "cartservice-546966d459-t6ggv"
+  },
+  "cpu__checkoutservice": {
+    "pod": "checkoutservice-76fb956bfd-dkpwp"
+  },
+  "cpu__currencyservice": {
+    "pod": "currencyservice-5f4487b75d-tdg4h"
+  },
+  "cpu__emailservice": {
+    "pod": "emailservice-d48fd9b84-trjcc"
+  },
+  "cpu__frontend": {
+    "pod": "frontend-7b76648f6b-227tg"
+  },
+  "cpu__loadgenerator": {
+    "pod": "loadgenerator-5b6c64c487-kr4rt"
+  },
+  "cpu__paymentservice": {
+    "pod": "paymentservice-85698c8c59-sss44"
+  },
+  "cpu__productcatalogservice": {
+    "pod": "productcatalogservice-7cc84874c9-c24xf"
+  },
+  "cpu__recommendationservice": {
+    "pod": "recommendationservice-5dd85b5857-mw2fd"
+  },
+  "cpu__redis-cart": {
+    "pod": "redis-cart-7fb96f6f78-7xs2h"
+  },
+  "cpu__shippingservice": {
+    "pod": "shippingservice-7f85f8b767-6txwh"
+  },
+  "fs_reads__frontend": {
+    "pod": "frontend-7b76648f6b-227tg"
+  },
+  "fs_reads__paymentservice": {
+    "pod": "paymentservice-85698c8c59-sss44"
+  },
+  "fs_reads__productcatalogservice": {
+    "pod": "productcatalogservice-7cc84874c9-c24xf"
+  },
+  "fs_reads__redis-cart": {
+    "pod": "redis-cart-7fb96f6f78-7xs2h"
+  },
+  "fs_reads__shippingservice": {
+    "pod": "shippingservice-7f85f8b767-6txwh"
+  },
+  "fs_writes__frontend": {
+    "pod": "frontend-7b76648f6b-227tg"
+  },
+  "fs_writes__paymentservice": {
+    "pod": "paymentservice-85698c8c59-sss44"
+  },
+  "fs_writes__productcatalogservice": {
+    "pod": "productcatalogservice-7cc84874c9-c24xf"
+  },
+  "fs_writes__redis-cart": {
+    "pod": "redis-cart-7fb96f6f78-7xs2h"
+  },
+  "fs_writes__shippingservice": {
+    "pod": "shippingservice-7f85f8b767-6txwh"
+  },
+  "memory__adservice": {
+    "pod": "adservice-584964d9f6-4ktgx"
+  },
+  "memory__cartservice": {
+    "pod": "cartservice-546966d459-t6ggv"
+  },
+  "memory__checkoutservice": {
+    "pod": "checkoutservice-76fb956bfd-dkpwp"
+  },
+  "memory__currencyservice": {
+    "pod": "currencyservice-5f4487b75d-tdg4h"
+  },
+  "memory__emailservice": {
+    "pod": "emailservice-d48fd9b84-trjcc"
+  },
+  "memory__frontend": {
+    "pod": "frontend-7b76648f6b-227tg"
+  },
+  "memory__loadgenerator": {
+    "pod": "loadgenerator-5b6c64c487-kr4rt"
+  },
+  "memory__paymentservice": {
+    "pod": "paymentservice-85698c8c59-sss44"
+  },
+  "memory__productcatalogservice": {
+    "pod": "productcatalogservice-7cc84874c9-c24xf"
+  },
+  "memory__recommendationservice": {
+    "pod": "recommendationservice-5dd85b5857-mw2fd"
+  },
+  "memory__redis-cart": {
+    "pod": "redis-cart-7fb96f6f78-7xs2h"
+  },
+  "memory__shippingservice": {
+    "pod": "shippingservice-7f85f8b767-6txwh"
+  },
+  "restart__adservice__server": {
+    "container": "server",
+    "pod": "adservice-584964d9f6-4ktgx"
+  },
+  "restart__cartservice__server": {
+    "container": "server",
+    "pod": "cartservice-546966d459-t6ggv"
+  },
+  "restart__checkoutservice__server": {
+    "container": "server",
+    "pod": "checkoutservice-76fb956bfd-dkpwp"
+  },
+  "restart__currencyservice__server": {
+    "container": "server",
+    "pod": "currencyservice-5f4487b75d-tdg4h"
+  },
+  "restart__emailservice__server": {
+    "container": "server",
+    "pod": "emailservice-d48fd9b84-trjcc"
+  },
+  "restart__frontend__server": {
+    "container": "server",
+    "pod": "frontend-7b76648f6b-227tg"
+  },
+  "restart__loadgenerator__main": {
+    "container": "main",
+    "pod": "loadgenerator-5b6c64c487-kr4rt"
+  },
+  "restart__paymentservice__server": {
+    "container": "server",
+    "pod": "paymentservice-85698c8c59-sss44"
+  },
+  "restart__productcatalogservice__server": {
+    "container": "server",
+    "pod": "productcatalogservice-7cc84874c9-c24xf"
+  },
+  "restart__recommendationservice__server": {
+    "container": "server",
+    "pod": "recommendationservice-5dd85b5857-mw2fd"
+  },
+  "restart__redis-cart__redis": {
+    "container": "redis",
+    "pod": "redis-cart-7fb96f6f78-7xs2h"
+  },
+  "restart__shippingservice__server": {
+    "container": "server",
+    "pod": "shippingservice-7f85f8b767-6txwh"
+  },
+  "running__adservice": {
+    "__name__": "kube_pod_status_phase",
+    "instance": "kube-state-metrics.monitoring.svc.cluster.local:8080",
+    "job": "kube-state-metrics",
+    "namespace": "online-boutique",
+    "phase": "Running",
+    "pod": "adservice-584964d9f6-4ktgx",
+    "uid": "dd94b438-8370-415d-81bc-134dde2412e4"
+  },
+  "running__cartservice": {
+    "__name__": "kube_pod_status_phase",
+    "instance": "kube-state-metrics.monitoring.svc.cluster.local:8080",
+    "job": "kube-state-metrics",
+    "namespace": "online-boutique",
+    "phase": "Running",
+    "pod": "cartservice-546966d459-t6ggv",
+    "uid": "8e2352dc-3206-4a24-bb10-2b4472674443"
+  },
+  "running__checkoutservice": {
+    "__name__": "kube_pod_status_phase",
+    "instance": "kube-state-metrics.monitoring.svc.cluster.local:8080",
+    "job": "kube-state-metrics",
+    "namespace": "online-boutique",
+    "phase": "Running",
+    "pod": "checkoutservice-76fb956bfd-dkpwp",
+    "uid": "35f6f964-8887-4cec-af3e-88d7f15ff9f3"
+  },
+  "running__currencyservice": {
+    "__name__": "kube_pod_status_phase",
+    "instance": "kube-state-metrics.monitoring.svc.cluster.local:8080",
+    "job": "kube-state-metrics",
+    "namespace": "online-boutique",
+    "phase": "Running",
+    "pod": "currencyservice-5f4487b75d-tdg4h",
+    "uid": "585cd152-4e69-4b3b-8b31-0ab7ad86385e"
+  },
+  "running__emailservice": {
+    "__name__": "kube_pod_status_phase",
+    "instance": "kube-state-metrics.monitoring.svc.cluster.local:8080",
+    "job": "kube-state-metrics",
+    "namespace": "online-boutique",
+    "phase": "Running",
+    "pod": "emailservice-d48fd9b84-trjcc",
+    "uid": "8b9d19ec-01b1-474c-a05e-748e8a35874d"
+  },
+  "running__frontend": {
+    "__name__": "kube_pod_status_phase",
+    "instance": "kube-state-metrics.monitoring.svc.cluster.local:8080",
+    "job": "kube-state-metrics",
+    "namespace": "online-boutique",
+    "phase": "Running",
+    "pod": "frontend-7b76648f6b-227tg",
+    "uid": "e2865ec0-69b6-4ee3-b8b0-54f9fe372376"
+  },
+  "running__loadgenerator": {
+    "__name__": "kube_pod_status_phase",
+    "instance": "kube-state-metrics.monitoring.svc.cluster.local:8080",
+    "job": "kube-state-metrics",
+    "namespace": "online-boutique",
+    "phase": "Running",
+    "pod": "loadgenerator-5b6c64c487-kr4rt",
+    "uid": "bf114f10-351c-48f3-99af-99a12098f379"
+  },
+  "running__paymentservice": {
+    "__name__": "kube_pod_status_phase",
+    "instance": "kube-state-metrics.monitoring.svc.cluster.local:8080",
+    "job": "kube-state-metrics",
+    "namespace": "online-boutique",
+    "phase": "Running",
+    "pod": "paymentservice-85698c8c59-sss44",
+    "uid": "897be6b1-b34a-4de5-857d-9e039c1675ce"
+  },
+  "running__productcatalogservice": {
+    "__name__": "kube_pod_status_phase",
+    "instance": "kube-state-metrics.monitoring.svc.cluster.local:8080",
+    "job": "kube-state-metrics",
+    "namespace": "online-boutique",
+    "phase": "Running",
+    "pod": "productcatalogservice-7cc84874c9-c24xf",
+    "uid": "d100be35-d6b6-4145-bd9c-31eda112801b"
+  },
+  "running__recommendationservice": {
+    "__name__": "kube_pod_status_phase",
+    "instance": "kube-state-metrics.monitoring.svc.cluster.local:8080",
+    "job": "kube-state-metrics",
+    "namespace": "online-boutique",
+    "phase": "Running",
+    "pod": "recommendationservice-5dd85b5857-mw2fd",
+    "uid": "08afa906-d394-4e25-8674-b4469cad2dfc"
+  },
+  "running__redis-cart": {
+    "__name__": "kube_pod_status_phase",
+    "instance": "kube-state-metrics.monitoring.svc.cluster.local:8080",
+    "job": "kube-state-metrics",
+    "namespace": "online-boutique",
+    "phase": "Running",
+    "pod": "redis-cart-7fb96f6f78-7xs2h",
+    "uid": "db37e6e6-0f45-471b-9bcd-3cc6c2a96726"
+  },
+  "running__shippingservice": {
+    "__name__": "kube_pod_status_phase",
+    "instance": "kube-state-metrics.monitoring.svc.cluster.local:8080",
+    "job": "kube-state-metrics",
+    "namespace": "online-boutique",
+    "phase": "Running",
+    "pod": "shippingservice-7f85f8b767-6txwh",
+    "uid": "fa5d3fe7-e85f-44a8-a3b9-8d909e1dfd97"
+  }
+}

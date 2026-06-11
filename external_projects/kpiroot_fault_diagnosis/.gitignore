@@ -1,0 +1,22 @@
+.conda/
+.venv/
+.cache/
+.logs/
+__pycache__/
+.pytest_cache/
+*.pyc
+.coverage
+htmlcov/
+results/
+
+# 本地课程资料和已下载论文不作为项目源码提交。
+Readme/
+
+# Online-Boutique 上游项目保留为本地部署副本。
+Online-Boutique/
+
+# JMeter HTML 报告体积较大，仓库保留 CSV/JTL 摘要与截图。
+data/phase3/jmeter/*/html-report/
+
+# 手动实验时临时存放截图的入口目录。
+screenshot/

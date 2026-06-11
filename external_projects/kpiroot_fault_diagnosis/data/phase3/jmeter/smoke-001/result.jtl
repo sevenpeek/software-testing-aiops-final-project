@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1780652118706,53,01 Home Page,200,OK,Shopping Flow Thread Group 1-1,text,true,,10766,118,1,1,http://127.0.0.1:8088/,52,0,20
+1780652118769,13,02 Product Detail,200,OK,Shopping Flow Thread Group 1-1,text,true,,8128,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,13,0,0
+1780652118783,45,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-1,text,true,,16761,485,1,1,http://127.0.0.1:8088/cart,7,0,0
+1780652118783,7,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-1,,true,,95,301,1,1,http://127.0.0.1:8088/cart,7,0,0
+1780652118791,37,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-1,text,true,,16666,184,1,1,http://127.0.0.1:8088/cart,37,0,0
+1780652118830,12,04 View Cart,200,OK,Shopping Flow Thread Group 1-1,text,true,,16650,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652118843,36,05 Checkout,200,OK,Shopping Flow Thread Group 1-1,text,true,,6985,532,1,1,http://127.0.0.1:8088/cart/checkout,36,0,0

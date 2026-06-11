@@ -1,0 +1,17 @@
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+matplotlib
+seaborn
+requests
+pyyaml
+tqdm
+pytest
+pytest-cov
+jupyter
+selenium
+reportlab
+pdfplumber
+pymupdf

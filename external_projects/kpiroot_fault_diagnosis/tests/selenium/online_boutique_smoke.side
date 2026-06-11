@@ -1,0 +1,91 @@
+{
+  "id": "3a2448d5-6b41-4fe6-b68b-4266a4033f3b",
+  "version": "2.0",
+  "name": "online_boutique_smoke",
+  "url": "http://127.0.0.1:8088",
+  "tests": [{
+    "id": "47d31d85-765a-4c4f-81ce-2e3c61cd9b6d",
+    "name": "TC01_shopping_flow",
+    "commands": [{
+      "id": "a08e4db2-f5f3-45bc-bb30-51036333d49e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b9d7518-37cc-4439-8f46-6ea2fda417ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c607504-c37e-4d07-a4b2-797b3603b205",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[contains(normalize-space(),'Sunglasses')]",
+      "targets": [],
+      "value": "Sunglasses"
+    }, {
+      "id": "4b40f5dc-11c2-4f72-a0a4-bce854e7efe1",
+      "comment": "",
+      "command": "open",
+      "target": "/product/OLJCESPC7Z",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb11ad81-7840-466a-af87-3b0604e157d7",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[contains(normalize-space(),'Add To Cart')]",
+      "targets": [],
+      "value": "Add To Cart"
+    }, {
+      "id": "477d208e-a12a-47d9-802c-0a4e723be0c8",
+      "comment": "",
+      "command": "select",
+      "target": "id=quantity",
+      "targets": [],
+      "value": "label=2"
+    }, {
+      "id": "eb005a1d-8d10-402d-8df0-ecc7a71d7928",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[normalize-space()='Add To Cart']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47220f42-191d-4cb3-b0c8-e98333d63799",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[contains(normalize-space(),'Cart (2)')]",
+      "targets": [],
+      "value": "Cart (2)"
+    }, {
+      "id": "6d4121f3-cd1b-40b1-8dd8-7b1a7874cc3e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[normalize-space()='Place Order']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f12b8925-1429-4420-aaf8-df85466ce4e6",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[contains(normalize-space(),'Your order is complete!')]",
+      "targets": [],
+      "value": "Your order is complete!"
+    }]
+  }],
+  "suites": [{
+    "id": "63e0cb47-5c20-4e44-80e6-30dd98780f9c",
+    "name": "Online Boutique Smoke Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["47d31d85-765a-4c4f-81ce-2e3c61cd9b6d"]
+  }],
+  "urls": ["http://127.0.0.1:8088/"],
+  "plugins": []
+}

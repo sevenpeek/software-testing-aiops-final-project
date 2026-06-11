@@ -1,0 +1,20 @@
+USAD reproduction summary
+input: data\sample_kpi_metrics.csv
+rows: 720
+metrics: 9
+window_size: 12
+train_windows: 240
+epochs: 180
+final_train_loss: 0.423042
+threshold: 0.677151
+precision: 0.5889
+recall: 1.0000
+f1: 0.7413
+tp/fp/fn/tn: 159/111/0/439
+
+top reconstruction-error metrics:
+- frontend_error_rate: 2.375420
+- catalogue_memory_usage: 1.709868
+- frontend_p95_latency_ms: 1.536743
+- orders_memory_usage: 1.031083
+- catalogue_cpu_usage: 0.857088

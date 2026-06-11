@@ -1,0 +1,5 @@
+timestamp_utc,test_case,metric_name,metric_type,value_ms,details
+2026-06-05T10:03:24+00:00,test_home_page_lists_products,home_page_load_ms,page_load,1803.1,http://127.0.0.1:8088/
+2026-06-05T10:03:29+00:00,test_product_detail_page,product_detail_page_load_ms,page_load,1750.6,http://127.0.0.1:8088/product/OLJCESPC7Z
+2026-06-05T10:03:35+00:00,test_add_to_cart,add_to_cart_interaction_ms,interaction,165.09,"Select quantity 2, click Add To Cart, wait until cart page is ready"
+2026-06-05T10:03:40+00:00,test_checkout_flow,checkout_submit_interaction_ms,interaction,228.88,Click Place Order and wait until confirmation page is ready

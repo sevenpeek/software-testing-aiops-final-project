@@ -1,0 +1,35 @@
+scenario_id: pod-kill-paymentservice-001
+phase: phase2
+system: JoinFyc/Online-Boutique
+namespace: online-boutique
+fault:
+  tool: ChaosMesh
+  kind: PodChaos
+  manifest: FinalProject/chaos/pod-kill-paymentservice.yaml
+  action: pod-kill
+  target_service: paymentservice
+  expected_root_cause: paymentservice
+timeline:
+  baseline_start: "2026-06-05T02:45:55.5019669+08:00"
+  fault_apply_time: "2026-06-05T02:51:15.6821586+08:00"
+  chaos_creation_time: "2026-06-05T02:51:17+08:00"
+  fault_confirmed_time: "2026-06-05T02:51:25.1436113+08:00"
+  recovery_confirmed_time: "2026-06-05T02:59:47.6511894+08:00"
+  export_start: "2026-06-05T02:45:55+08:00"
+  export_end: "2026-06-05T03:02:30+08:00"
+export:
+  prometheus_url: http://127.0.0.1:9090
+  step_seconds: 15
+  output_dir: FinalProject/data/phase2/pod-kill-paymentservice-001
+  matrix: processed/kpi_matrix.csv
+  raw_dir: prometheus_raw
+validation:
+  matrix_rows: 67
+  matrix_columns: 62
+  frontend_probe_success_min: 1
+  frontend_probe_success_max: 1
+  active_chaos_after_cleanup: false
+notes:
+  - Pod Kill does not necessarily increase the container restart counter, because Kubernetes creates a replacement Pod.
+  - The main processed matrix merges Pod names to stable service names for root-cause localization.
+  - The raw Prometheus CSVs preserve the old and replacement paymentservice Pod identities.

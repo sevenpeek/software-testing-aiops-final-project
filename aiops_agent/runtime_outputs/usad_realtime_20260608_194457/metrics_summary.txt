@@ -1,0 +1,20 @@
+USAD reproduction summary
+input: D:\software-test-final-aiops\aiops_agent\runtime_data\usad_input_20260608_194457.csv
+rows: 21
+metrics: 22
+window_size: 5
+train_windows: 17
+epochs: 1
+final_train_loss: 1.297126
+threshold: 2.207568
+precision: 0.0000
+recall: 0.0000
+f1: 0.0000
+tp/fp/fn/tn: 0/1/0/16
+
+top reconstruction-error metrics:
+- currencyservice__memory: 1.323707
+- shippingservice__memory: 1.255801
+- recommendationservice__cpu: 1.224971
+- cartservice__cpu: 1.094569
+- paymentservice__memory: 1.054260

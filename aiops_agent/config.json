@@ -1,0 +1,76 @@
+{
+  "system": {
+    "name": "Online Boutique",
+    "namespace": "online-boutique"
+  },
+  "mode": "hybrid",
+  "usad": {
+    "default_dataset": "online_boutique_chaosmesh",
+    "datasets": {
+      "online_boutique_real": {
+        "anomaly_scores": "external_projects/usad_anomaly_detection/outputs_online_boutique_real/anomaly_scores.csv",
+        "metrics_summary": "external_projects/usad_anomaly_detection/outputs_online_boutique_real/metrics_summary.txt"
+      },
+      "online_boutique_chaosmesh": {
+        "anomaly_scores": "external_projects/usad_anomaly_detection/outputs_online_boutique_chaosmesh/anomaly_scores.csv",
+        "metrics_summary": "external_projects/usad_anomaly_detection/outputs_online_boutique_chaosmesh/metrics_summary.txt"
+      }
+    }
+  },
+  "kpiroot": {
+    "default_scenario": "stress-paymentservice-cpu-001",
+    "summary_csv": "external_projects/kpiroot_fault_diagnosis/data/phase4/kpiroot/summary.csv",
+    "ablation_summary_csv": "external_projects/kpiroot_fault_diagnosis/data/phase4/kpiroot/ablation_summary.csv",
+    "scenarios_dir": "external_projects/kpiroot_fault_diagnosis/data/phase4/kpiroot"
+  },
+  "kubernetes": {
+    "enabled": true,
+    "kubectl": "kubectl",
+    "event_tail_lines": 30,
+    "log_tail_lines": 80,
+    "report_log_lines": 20,
+    "redact_sensitive_logs": true,
+    "command_timeout_seconds": 15
+  },
+  "prometheus": {
+    "enabled": true,
+    "query_mode": "kubectl_exec",
+    "monitoring_namespace": "monitoring",
+    "prometheus_deployment": "prometheus-deployment",
+    "service_namespace": "online-boutique",
+    "command_timeout_seconds": 15
+  },
+  "recovery": {
+    "enabled": true,
+    "execute_recovery": false,
+    "dry_run": true,
+    "cpu_pressure_threshold": 0.05,
+    "memory_pressure_threshold_mib": 150
+  },
+  "faults": {
+    "default_service": "paymentservice",
+    "default_fault_type": "cpu_stress",
+    "verified_fault_type": "cpu_stress",
+    "supported_fault_types": [
+      "cpu_stress",
+      "memory_stress",
+      "pod_kill",
+      "network_delay"
+    ],
+    "memory_pressure_threshold_mib": 150,
+    "network_latency_experimental": true
+  },
+  "agent": {
+    "enable_recovery": false,
+    "output_report": "aiops_agent/outputs/diagnosis_report.md"
+  },
+  "realtime_pipeline": {
+    "enabled": true,
+    "default_duration_minutes": 5,
+    "default_step_seconds": 15,
+    "runtime_data_dir": "aiops_agent/runtime_data",
+    "runtime_outputs_dir": "aiops_agent/runtime_outputs",
+    "execute_external_by_default": false,
+    "external_run_dry_run": true
+  }
+}

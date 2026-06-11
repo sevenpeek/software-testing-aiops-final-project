@@ -1,0 +1,8 @@
+﻿ARK_API_KEY detected. Using Volcengine Ark OpenAI-compatible mode.
+[Agent Tool Call] run_full_diagnosis
+[Agent Tool Call] query_usad_result
+[Agent Tool Call] query_kpiroot_result
+[Agent Tool Call] query_kubernetes_evidence
+[Agent Tool Call] query_prometheus_metrics
+Final Agent Diagnosis:
+Diagnosis report generated. Please review aiops_agent/outputs/diagnosis_report.md.

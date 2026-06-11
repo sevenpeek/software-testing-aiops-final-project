@@ -1,0 +1,4 @@
+threads,samples,success,errors,error_rate,avg_latency_ms,min_latency_ms,p95_latency_ms,max_latency_ms,labels
+10,240,240,0,0.0,40.19583333333333,8.0,94.0,164.0,"GET Cart Page, GET Home Page, GET Product Page"
+30,720,720,0,0.0,180.22222222222223,11.0,354.0,977.0,"GET Cart Page, GET Home Page, GET Product Page"
+50,1200,1200,0,0.0,404.29583333333335,10.0,902.0,1344.0,"GET Cart Page, GET Home Page, GET Product Page"

@@ -1,0 +1,4 @@
+scenario_id,method,expected_service,top1,expected_service_rank,hit_at_1,hit_at_3,hit_at_5
+stress-paymentservice-cpu-001,similarity_only,paymentservice,cpu__paymentservice,1,True,True,True
+stress-paymentservice-cpu-001,causality_only,paymentservice,memory__shippingservice,9,False,False,False
+stress-paymentservice-cpu-001,kpiroot_combined,paymentservice,cpu__paymentservice,1,True,True,True

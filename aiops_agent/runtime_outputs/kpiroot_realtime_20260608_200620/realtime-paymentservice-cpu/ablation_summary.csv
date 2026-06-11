@@ -1,0 +1,4 @@
+scenario_id,method,expected_service,top1,expected_service_rank,hit_at_1,hit_at_3,hit_at_5
+realtime-paymentservice-cpu,similarity_only,paymentservice,cpu__paymentservice,1,True,True,True
+realtime-paymentservice-cpu,causality_only,paymentservice,cpu__productcatalogservice,17,False,False,False
+realtime-paymentservice-cpu,kpiroot_combined,paymentservice,cpu__paymentservice,1,True,True,True

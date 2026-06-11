@@ -1,0 +1,351 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1780652135611,54,01 Home Page,200,OK,Shopping Flow Thread Group 1-1,text,true,,10766,118,1,1,http://127.0.0.1:8088/,53,0,21
+1780652135672,11,02 Product Detail,200,OK,Shopping Flow Thread Group 1-1,text,true,,8178,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,11,0,0
+1780652135683,40,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-1,text,true,,16761,485,1,1,http://127.0.0.1:8088/cart,8,0,0
+1780652135683,8,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-1,,true,,95,301,1,1,http://127.0.0.1:8088/cart,8,0,0
+1780652135692,31,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-1,text,true,,16666,184,1,1,http://127.0.0.1:8088/cart,31,0,0
+1780652135724,11,04 View Cart,200,OK,Shopping Flow Thread Group 1-1,text,true,,16640,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652135737,27,05 Checkout,200,OK,Shopping Flow Thread Group 1-1,text,true,,7001,532,1,1,http://127.0.0.1:8088/cart/checkout,27,0,0
+1780652135771,53,01 Home Page,200,OK,Shopping Flow Thread Group 1-1,text,true,,10766,118,1,1,http://127.0.0.1:8088/,53,0,1
+1780652135825,14,02 Product Detail,200,OK,Shopping Flow Thread Group 1-1,text,true,,8140,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,14,0,0
+1780652135840,33,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-1,text,true,,16745,485,1,1,http://127.0.0.1:8088/cart,21,0,0
+1780652135840,21,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-1,,true,,95,301,1,1,http://127.0.0.1:8088/cart,21,0,0
+1780652135861,12,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-1,text,true,,16650,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652135874,53,04 View Cart,200,OK,Shopping Flow Thread Group 1-1,text,true,,16654,184,1,1,http://127.0.0.1:8088/cart,53,0,0
+1780652135927,21,05 Checkout,200,OK,Shopping Flow Thread Group 1-1,text,true,,7005,532,1,1,http://127.0.0.1:8088/cart/checkout,20,0,0
+1780652135949,75,01 Home Page,200,OK,Shopping Flow Thread Group 1-1,text,true,,10766,118,1,1,http://127.0.0.1:8088/,75,0,0
+1780652136025,13,02 Product Detail,200,OK,Shopping Flow Thread Group 1-1,text,true,,8124,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,13,0,0
+1780652136038,34,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-1,text,true,,16707,485,1,1,http://127.0.0.1:8088/cart,21,0,0
+1780652136038,21,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-1,,true,,95,301,1,1,http://127.0.0.1:8088/cart,21,0,0
+1780652136060,12,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-1,text,true,,16612,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652136072,13,04 View Cart,200,OK,Shopping Flow Thread Group 1-1,text,true,,16626,184,1,1,http://127.0.0.1:8088/cart,13,0,0
+1780652136085,77,05 Checkout,200,OK,Shopping Flow Thread Group 1-1,text,true,,6949,532,1,1,http://127.0.0.1:8088/cart/checkout,77,0,0
+1780652136163,64,01 Home Page,200,OK,Shopping Flow Thread Group 1-1,text,true,,10766,118,1,1,http://127.0.0.1:8088/,64,0,1
+1780652136227,12,02 Product Detail,200,OK,Shopping Flow Thread Group 1-1,text,true,,8180,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,12,0,0
+1780652136239,25,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-1,text,true,,16749,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652136239,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-1,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652136244,20,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-1,text,true,,16654,184,1,1,http://127.0.0.1:8088/cart,20,0,0
+1780652136265,11,04 View Cart,200,OK,Shopping Flow Thread Group 1-1,text,true,,16652,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652136277,48,05 Checkout,200,OK,Shopping Flow Thread Group 1-1,text,true,,6995,532,1,1,http://127.0.0.1:8088/cart/checkout,48,0,0
+1780652136326,38,01 Home Page,200,OK,Shopping Flow Thread Group 1-1,text,true,,10766,118,1,1,http://127.0.0.1:8088/,38,0,0
+1780652136364,59,02 Product Detail,200,OK,Shopping Flow Thread Group 1-1,text,true,,8178,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,13,0,0
+1780652136423,40,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-1,text,true,,16729,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652136423,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-1,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652136429,34,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-1,text,true,,16634,184,1,1,http://127.0.0.1:8088/cart,34,0,0
+1780652136464,11,04 View Cart,200,OK,Shopping Flow Thread Group 1-1,text,true,,16632,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652136476,51,05 Checkout,200,OK,Shopping Flow Thread Group 1-1,text,true,,6955,532,1,1,http://127.0.0.1:8088/cart/checkout,51,0,0
+1780652137549,23,01 Home Page,200,OK,Shopping Flow Thread Group 1-2,text,true,,10766,118,1,1,http://127.0.0.1:8088/,22,0,0
+1780652137572,10,02 Product Detail,200,OK,Shopping Flow Thread Group 1-2,text,true,,8170,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,10,0,0
+1780652137583,17,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-2,text,true,,16727,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652137583,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-2,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652137588,12,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-2,text,true,,16632,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652137600,61,04 View Cart,200,OK,Shopping Flow Thread Group 1-2,text,true,,16640,184,1,1,http://127.0.0.1:8088/cart,61,0,0
+1780652137662,18,05 Checkout,200,OK,Shopping Flow Thread Group 1-2,text,true,,6981,532,1,1,http://127.0.0.1:8088/cart/checkout,18,0,0
+1780652137680,87,01 Home Page,200,OK,Shopping Flow Thread Group 1-2,text,true,,10766,118,1,1,http://127.0.0.1:8088/,87,0,1
+1780652137768,10,02 Product Detail,200,OK,Shopping Flow Thread Group 1-2,text,true,,8156,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,10,0,0
+1780652137779,16,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-2,text,true,,16719,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652137779,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-2,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652137783,12,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-2,text,true,,16624,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652137796,71,04 View Cart,200,OK,Shopping Flow Thread Group 1-2,text,true,,16660,184,1,1,http://127.0.0.1:8088/cart,71,0,0
+1780652137867,18,05 Checkout,200,OK,Shopping Flow Thread Group 1-2,text,true,,7003,532,1,1,http://127.0.0.1:8088/cart/checkout,18,0,0
+1780652137885,76,01 Home Page,200,OK,Shopping Flow Thread Group 1-2,text,true,,10766,118,1,1,http://127.0.0.1:8088/,76,0,1
+1780652137961,12,02 Product Detail,200,OK,Shopping Flow Thread Group 1-2,text,true,,8150,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,12,0,0
+1780652137974,16,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-2,text,true,,16755,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652137974,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-2,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652137978,12,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-2,text,true,,16660,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652137990,72,04 View Cart,200,OK,Shopping Flow Thread Group 1-2,text,true,,16616,184,1,1,http://127.0.0.1:8088/cart,72,0,0
+1780652138062,17,05 Checkout,200,OK,Shopping Flow Thread Group 1-2,text,true,,6993,532,1,1,http://127.0.0.1:8088/cart/checkout,17,0,0
+1780652138080,22,01 Home Page,200,OK,Shopping Flow Thread Group 1-2,text,true,,10766,118,1,1,http://127.0.0.1:8088/,22,0,0
+1780652138102,59,02 Product Detail,200,OK,Shopping Flow Thread Group 1-2,text,true,,8126,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,59,0,0
+1780652138161,18,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-2,text,true,,16759,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652138161,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-2,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652138166,13,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-2,text,true,,16664,184,1,1,http://127.0.0.1:8088/cart,13,0,0
+1780652138179,12,04 View Cart,200,OK,Shopping Flow Thread Group 1-2,text,true,,16634,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652138192,18,05 Checkout,200,OK,Shopping Flow Thread Group 1-2,text,true,,6987,532,1,1,http://127.0.0.1:8088/cart/checkout,18,0,0
+1780652138210,62,01 Home Page,200,OK,Shopping Flow Thread Group 1-2,text,true,,10766,118,1,1,http://127.0.0.1:8088/,61,0,1
+1780652138272,15,02 Product Detail,200,OK,Shopping Flow Thread Group 1-2,text,true,,8158,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,15,0,0
+1780652138288,82,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-2,text,true,,16721,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652138288,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-2,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652138293,77,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-2,text,true,,16626,184,1,1,http://127.0.0.1:8088/cart,77,0,0
+1780652138370,12,04 View Cart,200,OK,Shopping Flow Thread Group 1-2,text,true,,16648,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652138383,16,05 Checkout,200,OK,Shopping Flow Thread Group 1-2,text,true,,6941,532,1,1,http://127.0.0.1:8088/cart/checkout,16,0,0
+1780652139560,105,01 Home Page,200,OK,Shopping Flow Thread Group 1-3,text,true,,10766,118,1,1,http://127.0.0.1:8088/,105,0,2
+1780652139666,19,02 Product Detail,200,OK,Shopping Flow Thread Group 1-3,text,true,,8132,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,18,0,0
+1780652139685,96,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-3,text,true,,16711,485,1,1,http://127.0.0.1:8088/cart,78,0,0
+1780652139685,78,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-3,,true,,95,301,1,1,http://127.0.0.1:8088/cart,78,0,0
+1780652139764,17,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-3,text,true,,16616,184,1,1,http://127.0.0.1:8088/cart,16,0,0
+1780652139781,89,04 View Cart,200,OK,Shopping Flow Thread Group 1-3,text,true,,16654,184,1,1,http://127.0.0.1:8088/cart,88,0,0
+1780652139870,20,05 Checkout,200,OK,Shopping Flow Thread Group 1-3,text,true,,6969,532,1,1,http://127.0.0.1:8088/cart/checkout,20,0,0
+1780652139891,83,01 Home Page,200,OK,Shopping Flow Thread Group 1-3,text,true,,10766,118,1,1,http://127.0.0.1:8088/,83,0,1
+1780652139975,47,02 Product Detail,200,OK,Shopping Flow Thread Group 1-3,text,true,,8186,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,13,0,0
+1780652140023,57,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-3,text,true,,16747,485,1,1,http://127.0.0.1:8088/cart,39,0,0
+1780652140023,39,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-3,,true,,95,301,1,1,http://127.0.0.1:8088/cart,39,0,0
+1780652140062,18,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-3,text,true,,16652,184,1,1,http://127.0.0.1:8088/cart,18,0,0
+1780652140081,84,04 View Cart,200,OK,Shopping Flow Thread Group 1-3,text,true,,16674,184,1,1,http://127.0.0.1:8088/cart,83,0,0
+1780652140166,21,05 Checkout,200,OK,Shopping Flow Thread Group 1-3,text,true,,6959,532,1,1,http://127.0.0.1:8088/cart/checkout,21,0,0
+1780652140187,76,01 Home Page,200,OK,Shopping Flow Thread Group 1-3,text,true,,10766,118,1,1,http://127.0.0.1:8088/,76,0,1
+1780652140263,13,02 Product Detail,200,OK,Shopping Flow Thread Group 1-3,text,true,,8128,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,13,0,0
+1780652140276,22,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-3,text,true,,16739,485,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652140276,6,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-3,,true,,95,301,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652140283,15,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-3,text,true,,16644,184,1,1,http://127.0.0.1:8088/cart,15,0,0
+1780652140298,66,04 View Cart,200,OK,Shopping Flow Thread Group 1-3,text,true,,16630,184,1,1,http://127.0.0.1:8088/cart,66,0,0
+1780652140365,17,05 Checkout,200,OK,Shopping Flow Thread Group 1-3,text,true,,6971,532,1,1,http://127.0.0.1:8088/cart/checkout,17,0,0
+1780652140382,41,01 Home Page,200,OK,Shopping Flow Thread Group 1-3,text,true,,10766,118,1,1,http://127.0.0.1:8088/,41,0,2
+1780652140423,49,02 Product Detail,200,OK,Shopping Flow Thread Group 1-3,text,true,,8172,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,49,0,0
+1780652140472,89,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-3,text,true,,16781,485,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652140472,6,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-3,,true,,95,301,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652140478,83,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-3,text,true,,16686,184,1,1,http://127.0.0.1:8088/cart,83,0,0
+1780652140562,11,04 View Cart,200,OK,Shopping Flow Thread Group 1-3,text,true,,16622,184,1,1,http://127.0.0.1:8088/cart,10,0,0
+1780652140573,17,05 Checkout,200,OK,Shopping Flow Thread Group 1-3,text,true,,6981,532,1,1,http://127.0.0.1:8088/cart/checkout,17,0,0
+1780652140590,77,01 Home Page,200,OK,Shopping Flow Thread Group 1-3,text,true,,10766,118,1,1,http://127.0.0.1:8088/,77,0,1
+1780652140668,10,02 Product Detail,200,OK,Shopping Flow Thread Group 1-3,text,true,,8152,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,10,0,0
+1780652140678,82,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-3,text,true,,16731,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652140678,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-3,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652140683,77,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-3,text,true,,16636,184,1,1,http://127.0.0.1:8088/cart,77,0,0
+1780652140760,12,04 View Cart,200,OK,Shopping Flow Thread Group 1-3,text,true,,16624,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652140772,16,05 Checkout,200,OK,Shopping Flow Thread Group 1-3,text,true,,6987,532,1,1,http://127.0.0.1:8088/cart/checkout,15,0,0
+1780652141548,26,01 Home Page,200,OK,Shopping Flow Thread Group 1-4,text,true,,10766,118,1,1,http://127.0.0.1:8088/,26,0,0
+1780652141575,11,02 Product Detail,200,OK,Shopping Flow Thread Group 1-4,text,true,,8170,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,11,0,0
+1780652141587,36,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-4,text,true,,16735,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652141587,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-4,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652141592,31,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-4,text,true,,16640,184,1,1,http://127.0.0.1:8088/cart,30,0,0
+1780652141623,43,04 View Cart,200,OK,Shopping Flow Thread Group 1-4,text,true,,16650,184,1,1,http://127.0.0.1:8088/cart,43,0,0
+1780652141667,15,05 Checkout,200,OK,Shopping Flow Thread Group 1-4,text,true,,6959,532,1,1,http://127.0.0.1:8088/cart/checkout,15,0,0
+1780652141683,23,01 Home Page,200,OK,Shopping Flow Thread Group 1-4,text,true,,10766,118,1,1,http://127.0.0.1:8088/,23,0,1
+1780652141706,55,02 Product Detail,200,OK,Shopping Flow Thread Group 1-4,text,true,,8162,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,55,0,0
+1780652141761,20,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-4,text,true,,16721,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652141761,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-4,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652141767,14,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-4,text,true,,16626,184,1,1,http://127.0.0.1:8088/cart,13,0,0
+1780652141781,87,04 View Cart,200,OK,Shopping Flow Thread Group 1-4,text,true,,16664,184,1,1,http://127.0.0.1:8088/cart,87,0,0
+1780652141868,17,05 Checkout,200,OK,Shopping Flow Thread Group 1-4,text,true,,6965,532,1,1,http://127.0.0.1:8088/cart/checkout,17,0,0
+1780652141885,80,01 Home Page,200,OK,Shopping Flow Thread Group 1-4,text,true,,10766,118,1,1,http://127.0.0.1:8088/,80,0,1
+1780652141966,10,02 Product Detail,200,OK,Shopping Flow Thread Group 1-4,text,true,,8114,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,10,0,0
+1780652141977,15,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-4,text,true,,16737,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652141977,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-4,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652141981,11,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-4,text,true,,16642,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652141993,11,04 View Cart,200,OK,Shopping Flow Thread Group 1-4,text,true,,16642,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652142004,57,05 Checkout,200,OK,Shopping Flow Thread Group 1-4,text,true,,6991,532,1,1,http://127.0.0.1:8088/cart/checkout,57,0,0
+1780652142062,24,01 Home Page,200,OK,Shopping Flow Thread Group 1-4,text,true,,10766,118,1,1,http://127.0.0.1:8088/,24,0,0
+1780652142086,75,02 Product Detail,200,OK,Shopping Flow Thread Group 1-4,text,true,,8124,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,75,0,0
+1780652142161,16,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-4,text,true,,16755,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652142161,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-4,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652142166,11,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-4,text,true,,16660,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652142177,10,04 View Cart,200,OK,Shopping Flow Thread Group 1-4,text,true,,16640,184,1,1,http://127.0.0.1:8088/cart,10,0,0
+1780652142188,17,05 Checkout,200,OK,Shopping Flow Thread Group 1-4,text,true,,7005,532,1,1,http://127.0.0.1:8088/cart/checkout,17,0,0
+1780652142206,64,01 Home Page,200,OK,Shopping Flow Thread Group 1-4,text,true,,10766,118,1,1,http://127.0.0.1:8088/,64,0,0
+1780652142270,10,02 Product Detail,200,OK,Shopping Flow Thread Group 1-4,text,true,,8130,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,10,0,0
+1780652142280,84,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-4,text,true,,16703,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652142280,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-4,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652142285,79,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-4,text,true,,16608,184,1,1,http://127.0.0.1:8088/cart,77,0,0
+1780652142366,100,04 View Cart,200,OK,Shopping Flow Thread Group 1-4,text,true,,16652,184,1,1,http://127.0.0.1:8088/cart,100,0,0
+1780652142466,22,05 Checkout,200,OK,Shopping Flow Thread Group 1-4,text,true,,6981,532,1,1,http://127.0.0.1:8088/cart/checkout,22,0,0
+1780652143548,27,01 Home Page,200,OK,Shopping Flow Thread Group 1-5,text,true,,10766,118,1,1,http://127.0.0.1:8088/,27,0,1
+1780652143575,14,02 Product Detail,200,OK,Shopping Flow Thread Group 1-5,text,true,,8146,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,14,0,0
+1780652143590,17,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-5,text,true,,16719,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652143590,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-5,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652143595,12,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-5,text,true,,16624,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652143607,61,04 View Cart,200,OK,Shopping Flow Thread Group 1-5,text,true,,16668,184,1,1,http://127.0.0.1:8088/cart,61,0,0
+1780652143669,14,05 Checkout,200,OK,Shopping Flow Thread Group 1-5,text,true,,6993,532,1,1,http://127.0.0.1:8088/cart/checkout,14,0,0
+1780652143684,82,01 Home Page,200,OK,Shopping Flow Thread Group 1-5,text,true,,10766,118,1,1,http://127.0.0.1:8088/,82,0,1
+1780652143767,11,02 Product Detail,200,OK,Shopping Flow Thread Group 1-5,text,true,,8178,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,11,0,0
+1780652143778,83,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-5,text,true,,16713,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652143778,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-5,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652143783,78,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-5,text,true,,16618,184,1,1,http://127.0.0.1:8088/cart,78,0,0
+1780652143861,12,04 View Cart,200,OK,Shopping Flow Thread Group 1-5,text,true,,16650,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652143873,17,05 Checkout,200,OK,Shopping Flow Thread Group 1-5,text,true,,6961,532,1,1,http://127.0.0.1:8088/cart/checkout,17,0,0
+1780652143891,24,01 Home Page,200,OK,Shopping Flow Thread Group 1-5,text,true,,10766,118,1,1,http://127.0.0.1:8088/,24,0,1
+1780652143915,51,02 Product Detail,200,OK,Shopping Flow Thread Group 1-5,text,true,,8150,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,50,0,0
+1780652143966,16,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-5,text,true,,16739,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652143966,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-5,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652143971,11,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-5,text,true,,16644,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652143982,80,04 View Cart,200,OK,Shopping Flow Thread Group 1-5,text,true,,16646,184,1,1,http://127.0.0.1:8088/cart,80,0,0
+1780652144063,17,05 Checkout,200,OK,Shopping Flow Thread Group 1-5,text,true,,6985,532,1,1,http://127.0.0.1:8088/cart/checkout,17,0,0
+1780652144081,80,01 Home Page,200,OK,Shopping Flow Thread Group 1-5,text,true,,10766,118,1,1,http://127.0.0.1:8088/,79,0,1
+1780652144161,12,02 Product Detail,200,OK,Shopping Flow Thread Group 1-5,text,true,,8174,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,12,0,0
+1780652144173,18,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-5,text,true,,16715,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652144173,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-5,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652144178,13,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-5,text,true,,16620,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652144191,72,04 View Cart,200,OK,Shopping Flow Thread Group 1-5,text,true,,16662,184,1,1,http://127.0.0.1:8088/cart,72,0,0
+1780652144263,17,05 Checkout,200,OK,Shopping Flow Thread Group 1-5,text,true,,6995,532,1,1,http://127.0.0.1:8088/cart/checkout,16,0,0
+1780652144280,25,01 Home Page,200,OK,Shopping Flow Thread Group 1-5,text,true,,10766,118,1,1,http://127.0.0.1:8088/,25,0,1
+1780652144305,58,02 Product Detail,200,OK,Shopping Flow Thread Group 1-5,text,true,,8134,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,58,0,0
+1780652144363,18,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-5,text,true,,16737,485,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652144363,6,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-5,,true,,95,301,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652144369,12,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-5,text,true,,16642,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652144382,12,04 View Cart,200,OK,Shopping Flow Thread Group 1-5,text,true,,16624,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652144395,64,05 Checkout,200,OK,Shopping Flow Thread Group 1-5,text,true,,6969,532,1,1,http://127.0.0.1:8088/cart/checkout,64,0,0
+1780652145548,26,01 Home Page,200,OK,Shopping Flow Thread Group 1-6,text,true,,10766,118,1,1,http://127.0.0.1:8088/,26,0,0
+1780652145575,11,02 Product Detail,200,OK,Shopping Flow Thread Group 1-6,text,true,,8140,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,11,0,0
+1780652145586,76,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-6,text,true,,16761,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652145586,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-6,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652145591,71,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-6,text,true,,16666,184,1,1,http://127.0.0.1:8088/cart,71,0,0
+1780652145663,12,04 View Cart,200,OK,Shopping Flow Thread Group 1-6,text,true,,16618,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652145675,16,05 Checkout,200,OK,Shopping Flow Thread Group 1-6,text,true,,6949,532,1,1,http://127.0.0.1:8088/cart/checkout,16,0,0
+1780652145692,80,01 Home Page,200,OK,Shopping Flow Thread Group 1-6,text,true,,10766,118,1,1,http://127.0.0.1:8088/,80,0,1
+1780652145772,12,02 Product Detail,200,OK,Shopping Flow Thread Group 1-6,text,true,,8170,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,12,0,0
+1780652145784,75,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-6,text,true,,16745,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652145784,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-6,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652145788,71,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-6,text,true,,16650,184,1,1,http://127.0.0.1:8088/cart,71,0,0
+1780652145860,13,04 View Cart,200,OK,Shopping Flow Thread Group 1-6,text,true,,16634,184,1,1,http://127.0.0.1:8088/cart,13,0,0
+1780652145873,19,05 Checkout,200,OK,Shopping Flow Thread Group 1-6,text,true,,6987,532,1,1,http://127.0.0.1:8088/cart/checkout,19,0,0
+1780652145893,73,01 Home Page,200,OK,Shopping Flow Thread Group 1-6,text,true,,10766,118,1,1,http://127.0.0.1:8088/,72,0,1
+1780652145966,13,02 Product Detail,200,OK,Shopping Flow Thread Group 1-6,text,true,,8158,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,13,0,0
+1780652145979,43,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-6,text,true,,16737,485,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652145979,6,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-6,,true,,95,301,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652145985,37,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-6,text,true,,16642,184,1,1,http://127.0.0.1:8088/cart,37,0,0
+1780652146023,40,04 View Cart,200,OK,Shopping Flow Thread Group 1-6,text,true,,16620,184,1,1,http://127.0.0.1:8088/cart,40,0,0
+1780652146064,15,05 Checkout,200,OK,Shopping Flow Thread Group 1-6,text,true,,6967,532,1,1,http://127.0.0.1:8088/cart/checkout,15,0,0
+1780652146080,25,01 Home Page,200,OK,Shopping Flow Thread Group 1-6,text,true,,10766,118,1,1,http://127.0.0.1:8088/,25,0,1
+1780652146105,60,02 Product Detail,200,OK,Shopping Flow Thread Group 1-6,text,true,,8140,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,59,0,0
+1780652146165,59,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-6,text,true,,16739,485,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652146165,6,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-6,,true,,95,301,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652146171,53,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-6,text,true,,16644,184,1,1,http://127.0.0.1:8088/cart,53,0,0
+1780652146225,42,04 View Cart,200,OK,Shopping Flow Thread Group 1-6,text,true,,16662,184,1,1,http://127.0.0.1:8088/cart,42,0,0
+1780652146268,14,05 Checkout,200,OK,Shopping Flow Thread Group 1-6,text,true,,6973,532,1,1,http://127.0.0.1:8088/cart/checkout,14,0,0
+1780652146282,22,01 Home Page,200,OK,Shopping Flow Thread Group 1-6,text,true,,10766,118,1,1,http://127.0.0.1:8088/,22,0,1
+1780652146304,58,02 Product Detail,200,OK,Shopping Flow Thread Group 1-6,text,true,,8168,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,58,0,0
+1780652146362,14,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-6,text,true,,16773,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652146362,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-6,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652146367,9,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-6,text,true,,16678,184,1,1,http://127.0.0.1:8088/cart,9,0,0
+1780652146377,10,04 View Cart,200,OK,Shopping Flow Thread Group 1-6,text,true,,16658,184,1,1,http://127.0.0.1:8088/cart,10,0,0
+1780652146387,38,05 Checkout,200,OK,Shopping Flow Thread Group 1-6,text,true,,6967,532,1,1,http://127.0.0.1:8088/cart/checkout,38,0,0
+1780652147548,32,01 Home Page,200,OK,Shopping Flow Thread Group 1-7,text,true,,10766,118,1,1,http://127.0.0.1:8088/,32,0,1
+1780652147581,80,02 Product Detail,200,OK,Shopping Flow Thread Group 1-7,text,true,,8190,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,80,0,0
+1780652147661,16,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-7,text,true,,16761,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652147661,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-7,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652147666,11,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-7,text,true,,16666,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652147678,12,04 View Cart,200,OK,Shopping Flow Thread Group 1-7,text,true,,16620,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652147690,19,05 Checkout,200,OK,Shopping Flow Thread Group 1-7,text,true,,6995,532,1,1,http://127.0.0.1:8088/cart/checkout,19,0,0
+1780652147709,63,01 Home Page,200,OK,Shopping Flow Thread Group 1-7,text,true,,10766,118,1,1,http://127.0.0.1:8088/,63,0,1
+1780652147773,11,02 Product Detail,200,OK,Shopping Flow Thread Group 1-7,text,true,,8128,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,10,0,0
+1780652147784,78,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-7,text,true,,16737,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652147784,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-7,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652147788,74,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-7,text,true,,16642,184,1,1,http://127.0.0.1:8088/cart,74,0,0
+1780652147863,11,04 View Cart,200,OK,Shopping Flow Thread Group 1-7,text,true,,16628,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652147874,18,05 Checkout,200,OK,Shopping Flow Thread Group 1-7,text,true,,6997,532,1,1,http://127.0.0.1:8088/cart/checkout,18,0,0
+1780652147892,68,01 Home Page,200,OK,Shopping Flow Thread Group 1-7,text,true,,10766,118,1,1,http://127.0.0.1:8088/,68,0,1
+1780652147961,11,02 Product Detail,200,OK,Shopping Flow Thread Group 1-7,text,true,,8128,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,11,0,0
+1780652147972,18,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-7,text,true,,16739,485,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652147972,6,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-7,,true,,95,301,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652147978,12,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-7,text,true,,16644,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652147990,73,04 View Cart,200,OK,Shopping Flow Thread Group 1-7,text,true,,16652,184,1,1,http://127.0.0.1:8088/cart,73,0,0
+1780652148064,16,05 Checkout,200,OK,Shopping Flow Thread Group 1-7,text,true,,6981,532,1,1,http://127.0.0.1:8088/cart/checkout,16,0,0
+1780652148080,24,01 Home Page,200,OK,Shopping Flow Thread Group 1-7,text,true,,10766,118,1,1,http://127.0.0.1:8088/,24,0,1
+1780652148104,62,02 Product Detail,200,OK,Shopping Flow Thread Group 1-7,text,true,,8120,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,62,0,0
+1780652148166,17,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-7,text,true,,16723,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652148166,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-7,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652148171,12,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-7,text,true,,16628,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652148184,77,04 View Cart,200,OK,Shopping Flow Thread Group 1-7,text,true,,16624,184,1,1,http://127.0.0.1:8088/cart,76,0,0
+1780652148261,15,05 Checkout,200,OK,Shopping Flow Thread Group 1-7,text,true,,6967,532,1,1,http://127.0.0.1:8088/cart/checkout,15,0,0
+1780652148277,22,01 Home Page,200,OK,Shopping Flow Thread Group 1-7,text,true,,10766,118,1,1,http://127.0.0.1:8088/,22,0,0
+1780652148300,61,02 Product Detail,200,OK,Shopping Flow Thread Group 1-7,text,true,,8164,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,61,0,0
+1780652148362,16,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-7,text,true,,16761,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652148362,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-7,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652148366,12,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-7,text,true,,16666,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652148378,11,04 View Cart,200,OK,Shopping Flow Thread Group 1-7,text,true,,16634,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652148389,74,05 Checkout,200,OK,Shopping Flow Thread Group 1-7,text,true,,6979,532,1,1,http://127.0.0.1:8088/cart/checkout,74,0,0
+1780652149559,27,01 Home Page,200,OK,Shopping Flow Thread Group 1-8,text,true,,10766,118,1,1,http://127.0.0.1:8088/,26,0,1
+1780652149586,13,02 Product Detail,200,OK,Shopping Flow Thread Group 1-8,text,true,,8180,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,13,0,0
+1780652149599,15,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-8,text,true,,16771,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652149599,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-8,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652149604,10,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-8,text,true,,16676,184,1,1,http://127.0.0.1:8088/cart,10,0,0
+1780652149615,54,04 View Cart,200,OK,Shopping Flow Thread Group 1-8,text,true,,16658,184,1,1,http://127.0.0.1:8088/cart,54,0,0
+1780652149669,16,05 Checkout,200,OK,Shopping Flow Thread Group 1-8,text,true,,7005,532,1,1,http://127.0.0.1:8088/cart/checkout,16,0,0
+1780652149685,76,01 Home Page,200,OK,Shopping Flow Thread Group 1-8,text,true,,10766,118,1,1,http://127.0.0.1:8088/,75,0,1
+1780652149761,10,02 Product Detail,200,OK,Shopping Flow Thread Group 1-8,text,true,,8170,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,10,0,0
+1780652149771,17,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-8,text,true,,16729,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652149771,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-8,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652149776,12,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-8,text,true,,16634,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652149789,73,04 View Cart,200,OK,Shopping Flow Thread Group 1-8,text,true,,16650,184,1,1,http://127.0.0.1:8088/cart,72,0,0
+1780652149862,17,05 Checkout,200,OK,Shopping Flow Thread Group 1-8,text,true,,6991,532,1,1,http://127.0.0.1:8088/cart/checkout,17,0,0
+1780652149880,26,01 Home Page,200,OK,Shopping Flow Thread Group 1-8,text,true,,10766,118,1,1,http://127.0.0.1:8088/,26,0,0
+1780652149907,56,02 Product Detail,200,OK,Shopping Flow Thread Group 1-8,text,true,,8112,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,56,0,0
+1780652149964,21,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-8,text,true,,16763,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652149964,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-8,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652149969,16,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-8,text,true,,16668,184,1,1,http://127.0.0.1:8088/cart,15,0,0
+1780652149985,83,04 View Cart,200,OK,Shopping Flow Thread Group 1-8,text,true,,16676,184,1,1,http://127.0.0.1:8088/cart,83,0,0
+1780652150068,16,05 Checkout,200,OK,Shopping Flow Thread Group 1-8,text,true,,6955,532,1,1,http://127.0.0.1:8088/cart/checkout,16,0,0
+1780652150084,83,01 Home Page,200,OK,Shopping Flow Thread Group 1-8,text,true,,10766,118,1,1,http://127.0.0.1:8088/,83,0,1
+1780652150167,12,02 Product Detail,200,OK,Shopping Flow Thread Group 1-8,text,true,,8178,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,12,0,0
+1780652150179,21,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-8,text,true,,16753,485,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652150179,6,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-8,,true,,95,301,1,1,http://127.0.0.1:8088/cart,6,0,0
+1780652150185,15,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-8,text,true,,16658,184,1,1,http://127.0.0.1:8088/cart,15,0,0
+1780652150200,66,04 View Cart,200,OK,Shopping Flow Thread Group 1-8,text,true,,16624,184,1,1,http://127.0.0.1:8088/cart,66,0,0
+1780652150267,15,05 Checkout,200,OK,Shopping Flow Thread Group 1-8,text,true,,6951,532,1,1,http://127.0.0.1:8088/cart/checkout,15,0,0
+1780652150283,23,01 Home Page,200,OK,Shopping Flow Thread Group 1-8,text,true,,10766,118,1,1,http://127.0.0.1:8088/,23,0,1
+1780652150306,62,02 Product Detail,200,OK,Shopping Flow Thread Group 1-8,text,true,,8170,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,62,0,0
+1780652150369,93,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-8,text,true,,16755,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652150369,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-8,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652150373,89,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-8,text,true,,16660,184,1,1,http://127.0.0.1:8088/cart,89,0,0
+1780652150463,10,04 View Cart,200,OK,Shopping Flow Thread Group 1-8,text,true,,16652,184,1,1,http://127.0.0.1:8088/cart,10,0,0
+1780652150473,16,05 Checkout,200,OK,Shopping Flow Thread Group 1-8,text,true,,6975,532,1,1,http://127.0.0.1:8088/cart/checkout,16,0,0
+1780652151547,24,01 Home Page,200,OK,Shopping Flow Thread Group 1-9,text,true,,10766,118,1,1,http://127.0.0.1:8088/,24,0,0
+1780652151571,10,02 Product Detail,200,OK,Shopping Flow Thread Group 1-9,text,true,,8146,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,10,0,0
+1780652151582,14,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-9,text,true,,16747,485,1,1,http://127.0.0.1:8088/cart,3,0,0
+1780652151582,3,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-9,,true,,95,301,1,1,http://127.0.0.1:8088/cart,3,0,0
+1780652151586,10,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-9,text,true,,16652,184,1,1,http://127.0.0.1:8088/cart,10,0,0
+1780652151596,67,04 View Cart,200,OK,Shopping Flow Thread Group 1-9,text,true,,16626,184,1,1,http://127.0.0.1:8088/cart,67,0,0
+1780652151663,15,05 Checkout,200,OK,Shopping Flow Thread Group 1-9,text,true,,6969,532,1,1,http://127.0.0.1:8088/cart/checkout,15,0,0
+1780652151679,22,01 Home Page,200,OK,Shopping Flow Thread Group 1-9,text,true,,10766,118,1,1,http://127.0.0.1:8088/,22,0,1
+1780652151702,62,02 Product Detail,200,OK,Shopping Flow Thread Group 1-9,text,true,,8134,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,62,0,0
+1780652151764,18,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-9,text,true,,16745,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652151764,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-9,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652151770,12,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-9,text,true,,16650,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652151782,13,04 View Cart,200,OK,Shopping Flow Thread Group 1-9,text,true,,16654,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652151795,76,05 Checkout,200,OK,Shopping Flow Thread Group 1-9,text,true,,6965,532,1,1,http://127.0.0.1:8088/cart/checkout,76,0,0
+1780652151872,23,01 Home Page,200,OK,Shopping Flow Thread Group 1-9,text,true,,10766,118,1,1,http://127.0.0.1:8088/,22,0,0
+1780652151895,10,02 Product Detail,200,OK,Shopping Flow Thread Group 1-9,text,true,,8132,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,10,0,0
+1780652151906,61,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-9,text,true,,16741,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652151906,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-9,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652151910,57,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-9,text,true,,16646,184,1,1,http://127.0.0.1:8088/cart,57,0,0
+1780652151967,10,04 View Cart,200,OK,Shopping Flow Thread Group 1-9,text,true,,16652,184,1,1,http://127.0.0.1:8088/cart,10,0,0
+1780652151978,16,05 Checkout,200,OK,Shopping Flow Thread Group 1-9,text,true,,7007,532,1,1,http://127.0.0.1:8088/cart/checkout,16,0,0
+1780652151995,69,01 Home Page,200,OK,Shopping Flow Thread Group 1-9,text,true,,10766,118,1,1,http://127.0.0.1:8088/,69,0,1
+1780652152064,11,02 Product Detail,200,OK,Shopping Flow Thread Group 1-9,text,true,,8152,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,11,0,0
+1780652152076,14,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-9,text,true,,16763,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652152076,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-9,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652152080,10,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-9,text,true,,16668,184,1,1,http://127.0.0.1:8088/cart,10,0,0
+1780652152090,12,04 View Cart,200,OK,Shopping Flow Thread Group 1-9,text,true,,16666,184,1,1,http://127.0.0.1:8088/cart,12,0,0
+1780652152102,69,05 Checkout,200,OK,Shopping Flow Thread Group 1-9,text,true,,6955,532,1,1,http://127.0.0.1:8088/cart/checkout,69,0,0
+1780652152172,26,01 Home Page,200,OK,Shopping Flow Thread Group 1-9,text,true,,10766,118,1,1,http://127.0.0.1:8088/,26,0,0
+1780652152198,63,02 Product Detail,200,OK,Shopping Flow Thread Group 1-9,text,true,,8156,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,63,0,0
+1780652152261,14,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-9,text,true,,16733,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652152261,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-9,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652152266,9,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-9,text,true,,16638,184,1,1,http://127.0.0.1:8088/cart,9,0,0
+1780652152276,11,04 View Cart,200,OK,Shopping Flow Thread Group 1-9,text,true,,16676,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652152287,16,05 Checkout,200,OK,Shopping Flow Thread Group 1-9,text,true,,7005,532,1,1,http://127.0.0.1:8088/cart/checkout,16,0,0
+1780652153547,31,01 Home Page,200,OK,Shopping Flow Thread Group 1-10,text,true,,10766,118,1,1,http://127.0.0.1:8088/,31,0,1
+1780652153578,84,02 Product Detail,200,OK,Shopping Flow Thread Group 1-10,text,true,,8170,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,84,0,0
+1780652153663,15,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-10,text,true,,16747,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652153663,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-10,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652153667,11,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-10,text,true,,16652,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652153678,11,04 View Cart,200,OK,Shopping Flow Thread Group 1-10,text,true,,16686,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652153689,15,05 Checkout,200,OK,Shopping Flow Thread Group 1-10,text,true,,6939,532,1,1,http://127.0.0.1:8088/cart/checkout,15,0,0
+1780652153705,63,01 Home Page,200,OK,Shopping Flow Thread Group 1-10,text,true,,10766,118,1,1,http://127.0.0.1:8088/,63,0,0
+1780652153769,9,02 Product Detail,200,OK,Shopping Flow Thread Group 1-10,text,true,,8158,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,9,0,0
+1780652153779,14,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-10,text,true,,16727,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652153779,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-10,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652153783,10,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-10,text,true,,16632,184,1,1,http://127.0.0.1:8088/cart,10,0,0
+1780652153794,66,04 View Cart,200,OK,Shopping Flow Thread Group 1-10,text,true,,16644,184,1,1,http://127.0.0.1:8088/cart,66,0,0
+1780652153860,15,05 Checkout,200,OK,Shopping Flow Thread Group 1-10,text,true,,6971,532,1,1,http://127.0.0.1:8088/cart/checkout,15,0,0
+1780652153876,22,01 Home Page,200,OK,Shopping Flow Thread Group 1-10,text,true,,10766,118,1,1,http://127.0.0.1:8088/,22,0,0
+1780652153898,10,02 Product Detail,200,OK,Shopping Flow Thread Group 1-10,text,true,,8140,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,10,0,0
+1780652153908,59,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-10,text,true,,16727,485,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652153908,4,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-10,,true,,95,301,1,1,http://127.0.0.1:8088/cart,4,0,0
+1780652153912,55,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-10,text,true,,16632,184,1,1,http://127.0.0.1:8088/cart,55,0,0
+1780652153967,10,04 View Cart,200,OK,Shopping Flow Thread Group 1-10,text,true,,16646,184,1,1,http://127.0.0.1:8088/cart,10,0,0
+1780652153977,15,05 Checkout,200,OK,Shopping Flow Thread Group 1-10,text,true,,7001,532,1,1,http://127.0.0.1:8088/cart/checkout,15,0,0
+1780652153993,67,01 Home Page,200,OK,Shopping Flow Thread Group 1-10,text,true,,10766,118,1,1,http://127.0.0.1:8088/,22,0,1
+1780652154060,10,02 Product Detail,200,OK,Shopping Flow Thread Group 1-10,text,true,,8132,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,10,0,0
+1780652154070,15,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-10,text,true,,16719,485,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652154070,5,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-10,,true,,95,301,1,1,http://127.0.0.1:8088/cart,5,0,0
+1780652154075,10,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-10,text,true,,16624,184,1,1,http://127.0.0.1:8088/cart,10,0,0
+1780652154085,74,04 View Cart,200,OK,Shopping Flow Thread Group 1-10,text,true,,16624,184,1,1,http://127.0.0.1:8088/cart,74,0,0
+1780652154159,15,05 Checkout,200,OK,Shopping Flow Thread Group 1-10,text,true,,6987,532,1,1,http://127.0.0.1:8088/cart/checkout,15,0,0
+1780652154174,22,01 Home Page,200,OK,Shopping Flow Thread Group 1-10,text,true,,10766,118,1,1,http://127.0.0.1:8088/,21,0,1
+1780652154196,12,02 Product Detail,200,OK,Shopping Flow Thread Group 1-10,text,true,,8134,198,1,1,http://127.0.0.1:8088/product/OLJCESPC7Z,11,0,0
+1780652154208,61,03 Add To Cart,200,OK,Shopping Flow Thread Group 1-10,text,true,,16743,485,1,1,http://127.0.0.1:8088/cart,50,0,0
+1780652154208,50,03 Add To Cart-0,302,Found,Shopping Flow Thread Group 1-10,,true,,95,301,1,1,http://127.0.0.1:8088/cart,50,0,0
+1780652154259,10,03 Add To Cart-1,200,OK,Shopping Flow Thread Group 1-10,text,true,,16648,184,1,1,http://127.0.0.1:8088/cart,10,0,0
+1780652154270,11,04 View Cart,200,OK,Shopping Flow Thread Group 1-10,text,true,,16642,184,1,1,http://127.0.0.1:8088/cart,11,0,0
+1780652154281,16,05 Checkout,200,OK,Shopping Flow Thread Group 1-10,text,true,,6979,532,1,1,http://127.0.0.1:8088/cart/checkout,16,0,0

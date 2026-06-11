@@ -1,0 +1,11 @@
+.tools/
+__pycache__/
+*.pyc
+.pytest_cache/
+jmeter.log
+report/rendered_latest/
+report/rendered_pdf/
+report/render_check_polished/
+outputs_jmeter/html/
+outputs_jmeter_matrix/threads_*/html/
+outputs_jmeter_matrix/threads_*/online_boutique_load_test.runtime.jmx

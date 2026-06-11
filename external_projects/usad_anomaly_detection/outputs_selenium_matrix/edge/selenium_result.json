@@ -1,0 +1,24 @@
+{
+  "base_url": "http://127.0.0.1:18080",
+  "browser": "edge",
+  "steps": [
+    {
+      "name": "open_home",
+      "status": "passed",
+      "latency_ms": 1220.02
+    },
+    {
+      "name": "open_product",
+      "status": "passed",
+      "latency_ms": 197.04,
+      "product_href": "http://127.0.0.1:18080/product/OLJCESPC7Z",
+      "current_url": "http://127.0.0.1:18080/product/OLJCESPC7Z"
+    },
+    {
+      "name": "open_cart",
+      "status": "passed",
+      "latency_ms": 83.95
+    }
+  ],
+  "status": "passed"
+}

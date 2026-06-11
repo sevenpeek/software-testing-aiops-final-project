@@ -1,0 +1,4 @@
+scenario_id,method,expected_service,top1,expected_service_rank,hit_at_1,hit_at_3,hit_at_5
+pod-kill-paymentservice-001,similarity_only,paymentservice,memory__paymentservice,1,True,True,True
+pod-kill-paymentservice-001,causality_only,paymentservice,fs_writes__redis-cart,11,False,False,False
+pod-kill-paymentservice-001,kpiroot_combined,paymentservice,memory__paymentservice,1,True,True,True

@@ -1,0 +1,14 @@
+﻿{
+  "prometheus_csv": "D:\\software-test-final-aiops\\aiops_agent\\runtime_data\\prometheus_realtime_20260608_202249.csv",
+  "usad_input_csv": "D:\\software-test-final-aiops\\aiops_agent\\runtime_data\\usad_input_20260608_202252.csv",
+  "kpiroot_input_csv": "D:\\software-test-final-aiops\\aiops_agent\\runtime_data\\kpiroot_input_20260608_202252.csv",
+  "kpiroot_phase2_dir": "D:\\software-test-final-aiops\\aiops_agent\\runtime_data\\kpiroot_phase2",
+  "kpiroot_scenario_dir": "D:\\software-test-final-aiops\\aiops_agent\\runtime_data\\kpiroot_phase2\\realtime-paymentservice-cpu",
+  "kpiroot_matrix_csv": "D:\\software-test-final-aiops\\aiops_agent\\runtime_data\\kpiroot_phase2\\realtime-paymentservice-cpu\\processed\\kpi_matrix.csv",
+  "metadata_yaml": "D:\\software-test-final-aiops\\aiops_agent\\runtime_data\\kpiroot_phase2\\realtime-paymentservice-cpu\\metadata.yaml",
+  "metadata_json": "D:\\software-test-final-aiops\\aiops_agent\\runtime_data\\realtime_dataset_20260608_202252.meta.json",
+  "warnings": [
+    "USAD input is canonical CSV compatible with run_usad.py.",
+    "KPIRoot input is adapted to phase2/<scenario>/processed/kpi_matrix.csv with generated metadata.yaml; scenario semantics should be confirmed by the KPIRoot project owners."
+  ]
+}

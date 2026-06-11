@@ -1,0 +1,34 @@
+scenario_id: stress-paymentservice-cpu-001
+date: 2026-06-05
+system: Online-Boutique
+namespace: online-boutique
+fault:
+  tool: ChaosMesh
+  kind: StressChaos
+  name: stress-paymentservice-cpu
+  target_app: paymentservice
+  expected_root_cause_kpis:
+    - cpu__paymentservice
+timing:
+  baseline_start: "2026-06-05T01:50:00+08:00"
+  fault_apply_command_time: "2026-06-05T02:05:50.9359678+08:00"
+  fault_start: "2026-06-05T02:06:14+08:00"
+  fault_confirmed_time: "2026-06-05T02:06:23.7236879+08:00"
+  fault_duration: "5m"
+  fault_end_estimated: "2026-06-05T02:11:14+08:00"
+  recovery_confirmed_time: "2026-06-05T02:18:12.2415593+08:00"
+  export_start: "2026-06-05T01:50:00+08:00"
+  export_end: "2026-06-05T02:18:30+08:00"
+prometheus:
+  scrape_interval_seconds: 15
+  step_seconds: 15
+chaos_yaml: "../../../chaos/stress-paymentservice-cpu.yaml"
+screenshots_dir: "screenshots"
+data:
+  raw_dir: "prometheus_raw"
+  processed_matrix: "processed/kpi_matrix.csv"
+notes:
+  - "StressChaos injected CPU load 80 with 1 worker into paymentservice for 5 minutes."
+  - "Grafana screenshot shows a clear paymentservice CPU plateau from about 02:07 to 02:12."
+  - "Frontend probe success stayed at 1, so the service remained reachable during the injected stress."
+  - "All Online-Boutique Pods were Running during recovery, and the stresschaos object was deleted."

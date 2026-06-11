@@ -1,0 +1,4 @@
+scenario_id,method,expected_service,top1,expected_service_rank,hit_at_1,hit_at_3,hit_at_5
+stress-frontend-cpu-001,similarity_only,frontend,cpu__frontend,1,True,True,True
+stress-frontend-cpu-001,causality_only,frontend,cpu__checkoutservice,9,False,False,False
+stress-frontend-cpu-001,kpiroot_combined,frontend,cpu__frontend,1,True,True,True
